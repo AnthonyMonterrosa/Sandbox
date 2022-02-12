@@ -1,4 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System;
+﻿using static System.Console;
 
-Console.WriteLine("Hello, World!");
+namespace AtomicWorks.Sandbox.ASP;
+
+public static class Program
+{
+	public static void Main()
+	{
+		WriteLine("Hello, World!");
+	}
+}
