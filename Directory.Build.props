@@ -1,5 +1,10 @@
 <Project>
 	<PropertyGroup>
+		<EnablePreviewFeatures>true</EnablePreviewFeatures>
+		<Nullable>enable</Nullable>
+
+		<NoWarn>1701;1702;MSB3539</NoWarn>
+		
 		<OutputFolder>Build</OutputFolder>
 		<BinaryFolder>Binary</BinaryFolder>
 		<ObjectFolder>Object</ObjectFolder>
@@ -8,9 +13,5 @@
 		<MSBuildProjectExtensionsPath>$(ProjectDir)$(OutputFolder)\$(MSBuildExtensionFolder)</MSBuildProjectExtensionsPath>
 		<BaseIntermediateOutputPath>$(ProjectDir)$(OutputFolder)\$(ObjectFolder)</BaseIntermediateOutputPath>
 		<BaseOutputPath>$(ProjectDir)$(OutputFolder)\$(BinaryFolder)</BaseOutputPath>
-	
-		<Nullable>enable</Nullable>
-
-		<NoWarn>1701;1702;MSB3539</NoWarn>
 	</PropertyGroup>
 </Project>
