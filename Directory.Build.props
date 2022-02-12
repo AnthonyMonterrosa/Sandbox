@@ -6,5 +6,9 @@
 		<MSBuildExtensionFolder>Extensions</MSBuildExtensionFolder>
 
 		<MSBuildProjectExtensionsPath>$(ProjectDir)$(OutputFolder)\$(MSBuildExtensionFolder)</MSBuildProjectExtensionsPath>
+		<BaseIntermediateOutputPath>$(ProjectDir)$(OutputFolder)\$(ObjectFolder)</BaseIntermediateOutputPath>
+		<BaseOutputPath>$(ProjectDir)$(OutputFolder)\$(BinaryFolder)</BaseOutputPath>
+	
+		<Nullable>enable</Nullable>
 	</PropertyGroup>
 </Project>
