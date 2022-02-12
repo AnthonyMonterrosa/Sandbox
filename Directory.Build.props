@@ -10,5 +10,7 @@
 		<BaseOutputPath>$(ProjectDir)$(OutputFolder)\$(BinaryFolder)</BaseOutputPath>
 	
 		<Nullable>enable</Nullable>
+
+		<NoWarn>1701;1702;MSB3539</NoWarn>
 	</PropertyGroup>
 </Project>
