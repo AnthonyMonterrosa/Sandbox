@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<OutputFolder>Build</OutputFolder>
+		<BinaryFolder>Binary</BinaryFolder>
+		<ObjectFolder>Object</ObjectFolder>
+		<MSBuildExtensionFolder>Extensions</MSBuildExtensionFolder>
+
+		<MSBuildProjectExtensionsPath>$(ProjectDir)$(OutputFolder)\$(MSBuildExtensionFolder)</MSBuildProjectExtensionsPath>
+	</PropertyGroup>
+</Project>

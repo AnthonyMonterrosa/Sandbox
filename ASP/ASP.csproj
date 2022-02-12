@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+
+		<BaseOutputPath>$(OutputFolder)\$(BinaryFolder)</BaseOutputPath>
+		<BaseIntermediateOutputPath>$(OutputFolder)\$(ObjectFolder)</BaseIntermediateOutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Folder Include="Build\" />
+	</ItemGroup>
+
+</Project>
